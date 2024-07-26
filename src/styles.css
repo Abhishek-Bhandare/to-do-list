@@ -1,0 +1,49 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-item span {
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.task-item button {
+  margin-left: 10px;
+}
